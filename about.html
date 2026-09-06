@@ -7,95 +7,146 @@
 <meta name="description" content="らくみつの掲載基準、価格表示の考え方、広告について、運営者情報。">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://wsty-gif.github.io/about.html"><meta property="og:type" content="website"><meta property="og:site_name" content="らくみつ｜楽天で見つけた良いもの"><meta property="og:title" content="選び方と運営者情報｜らくみつ"><meta property="og:description" content="らくみつの掲載基準、価格表示の考え方、広告について、運営者情報。"><meta property="og:image" content="https://wsty-gif.github.io/assets/og.png"><meta property="og:locale" content="ja_JP"><meta property="og:url" content="https://wsty-gif.github.io/about.html"><meta name="twitter:card" content="summary_large_image"><meta name="google-site-verification" content="iVy8LKuOONJ_5bkE3cqQXanhX1mp5nj-hfd78z7YnZ4">
+<link rel="icon" href="assets/icon.png">
 <link rel="alternate" type="application/rss+xml" title="らくみつ｜楽天で見つけた良いもの" href="feed.xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#faf7f2;--paper:#fff;--ink:#1f2328;--sub:#5c6470;--rule:#e6e0d8;--acc:#b6462b;--acc-soft:#f4e6e0}
-*{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans JP",-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;font-size:15px;line-height:1.85;-webkit-font-smoothing:antialiased;font-feature-settings:"palt"}
-img{display:block;max-width:100%;height:auto}a{color:inherit}
-.serif{font-family:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",serif}
-.wrap{max-width:960px;margin:0 auto;padding:0 22px}
-header{border-bottom:1px solid var(--rule);background:var(--bg)}
-.top{display:flex;align-items:baseline;justify-content:space-between;gap:20px;padding:22px 0 14px}
-.wordmark{text-decoration:none;color:var(--ink)}.wordmark b{font-family:"Shippori Mincho B1",serif;font-size:26px;font-weight:700;letter-spacing:.06em}
-.wordmark small{display:block;font-size:11px;color:var(--sub);letter-spacing:.12em;margin-top:2px}
-nav{display:flex;gap:22px;font-size:13px;overflow-x:auto;padding-bottom:12px;scrollbar-width:none}nav::-webkit-scrollbar{display:none}
-nav a{text-decoration:none;color:var(--ink);white-space:nowrap;padding-bottom:3px;border-bottom:1px solid transparent}nav a:hover,nav a[aria-current]{border-bottom-color:var(--ink)}
-.notice{font-size:12px;color:var(--sub);padding:10px 0;border-bottom:1px solid var(--rule)}
-main{padding-bottom:40px}
-.crumb{font-size:12px;color:var(--sub);margin:22px 0 0}.crumb a{color:var(--sub);text-decoration:none}.crumb a:hover{text-decoration:underline}
-.label{font-size:11px;letter-spacing:.18em;color:var(--acc);font-weight:700;margin:34px 0 8px}
-h1.title{font-family:"Shippori Mincho B1",serif;font-weight:700;font-size:clamp(24px,4vw,34px);line-height:1.45;margin:6px 0 14px;letter-spacing:.02em}
-.standfirst{color:var(--sub);font-size:15px;max-width:680px;margin:0 0 8px}
-.dateline{font-size:12px;color:var(--sub);margin:0 0 26px}.dateline time{margin-right:12px}
-h2.sec{font-family:"Shippori Mincho B1",serif;font-weight:700;font-size:21px;margin:44px 0 6px;letter-spacing:.03em}
-.sec-sub{font-size:13px;color:var(--sub);margin:0 0 18px}
-hr.rule{border:0;border-top:1px solid var(--rule);margin:36px 0}
-/* 記事内の商品行 */
-.row{display:grid;grid-template-columns:150px 1fr;gap:22px;padding:24px 0;border-top:1px solid var(--rule)}
-.row:last-child{border-bottom:1px solid var(--rule)}
-.row .thumb{background:#f1ede7}.row .thumb img{width:100%;aspect-ratio:1/1;object-fit:cover}
-.row .n{font-family:"Shippori Mincho B1",serif;font-size:13px;color:var(--acc);letter-spacing:.1em;margin:0 0 4px}
-.row h3{font-size:17px;line-height:1.55;margin:0 0 6px;font-weight:700}.row h3 a{text-decoration:none}.row h3 a:hover{text-decoration:underline}
-.facts{font-size:13px;color:var(--sub);margin:0 0 8px}.facts b{color:var(--ink);font-weight:700}
-.price{margin:0 0 8px;font-size:14px}.price b{font-size:22px;font-weight:700;letter-spacing:.01em}.price .eff{margin-left:10px;color:var(--acc);font-weight:700}
-.memo{margin:0 0 12px;font-size:14px;color:#3a4048}
-.go{display:inline-block;font-size:13px;font-weight:700;text-decoration:none;color:var(--ink);border:1px solid var(--ink);padding:8px 16px;border-radius:2px;transition:background .15s,color .15s}
-.go:hover{background:var(--ink);color:#fff}
-/* トップのグリッド */
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 22px}
-.tile{text-decoration:none;color:inherit;display:block}
-.tile .thumb{background:#f1ede7;margin-bottom:10px}.tile .thumb img{width:100%;aspect-ratio:1/1;object-fit:cover}
-.tile .n{font-family:"Shippori Mincho B1",serif;font-size:12px;color:var(--acc);letter-spacing:.1em}
-.tile h3{font-size:14px;line-height:1.55;margin:2px 0 4px;font-weight:700}.tile:hover h3{text-decoration:underline}
-.tile .facts{margin:0 0 4px;font-size:12px}.tile .price{font-size:13px}.tile .price b{font-size:17px}
-/* 一覧 */
-.entries{list-style:none;margin:0;padding:0}
-.entries li{display:grid;grid-template-columns:96px 1fr;gap:16px;padding:16px 0;border-top:1px solid var(--rule);align-items:baseline}
-.entries li:last-child{border-bottom:1px solid var(--rule)}
-.entries time{font-size:12px;color:var(--sub);font-variant-numeric:tabular-nums}
-.entries a{text-decoration:none;font-weight:700;line-height:1.6}.entries a:hover{text-decoration:underline}
-.entries small{display:block;font-size:12px;color:var(--sub);font-weight:400;margin-top:2px}
-.pnav{display:flex;justify-content:space-between;gap:16px;margin:40px 0 0;font-size:13px}.pnav a{text-decoration:none;color:var(--ink);max-width:48%}.pnav a:hover{text-decoration:underline}.pnav span{display:block;color:var(--sub);font-size:11px;letter-spacing:.12em}
-.who{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,1fr);gap:0 28px}
-.who li{border-top:1px solid var(--rule);padding:14px 0}.who a{text-decoration:none;font-weight:700}.who a:hover{text-decoration:underline}.who small{display:block;font-size:12px;color:var(--sub);font-weight:400}
-.prose p{margin:0 0 16px}.prose h2{font-family:"Shippori Mincho B1",serif;font-size:20px;margin:34px 0 10px}.prose ul{padding-left:20px}.prose li{margin-bottom:6px}
-footer{border-top:1px solid var(--rule);padding:28px 0 40px;font-size:12px;color:var(--sub)}
-footer .cols{display:flex;flex-wrap:wrap;gap:8px 22px;margin-bottom:12px}footer a{color:var(--sub);text-decoration:none}footer a:hover{text-decoration:underline}
-@media (max-width:640px){.row{grid-template-columns:104px 1fr;gap:14px;padding:18px 0}.row h3{font-size:15px}.price b{font-size:19px}.grid{grid-template-columns:repeat(2,1fr);gap:20px 14px}.who{grid-template-columns:1fr}.entries li{grid-template-columns:1fr;gap:2px}.memo{font-size:13px}}
+:root{--acc:#ff6b4a;--acc-d:#e0552f;--acc-l:#fff1eb;--ink:#333;--sub:#777;--line:#e9e5e0;--bg:#f4f2ee;--card:#fff;--gold:#f1b41b;--red:#d3452c;--navy:#2b3450}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans JP",-apple-system,"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased}
+a{color:var(--acc-d)}img{display:block;max-width:100%;height:auto}
+.wrap{max-width:1140px;margin:0 auto;padding:0 16px}
+/* トップバー */
+.topbar{background:var(--acc);color:#fff;font-size:12px}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;height:30px}
+.topbar .sns{display:flex;gap:14px}.topbar a{color:#fff;display:inline-flex;align-items:center;gap:4px;text-decoration:none}
+/* ヘッダー */
+.hdr{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.hdr .wrap{display:flex;align-items:center;justify-content:space-between;height:62px;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:700;font-size:19px;white-space:nowrap;flex-shrink:0}
+.brand img{width:36px;height:36px;border-radius:50%}
+.gnav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0;justify-content:flex-end}.gnav::-webkit-scrollbar{display:none}
+.gnav a{white-space:nowrap;font-size:13px;color:var(--ink);text-decoration:none;padding:8px 11px;border-radius:6px}.gnav a:hover{background:var(--acc-l);color:var(--acc-d)}
+/* スライダー */
+.slider{background:#fff;border-bottom:1px solid var(--line);padding:18px 0 14px}
+.track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 16px 6px;scrollbar-width:none}.track::-webkit-scrollbar{display:none}
+.slide{flex:0 0 360px;scroll-snap-align:start;text-decoration:none;color:var(--ink);position:relative}
+.slide .thumb{border-radius:12px}.slide .cat{position:absolute;top:10px;left:10px}
+.slide h3{font-size:15px;font-weight:700;margin:10px 4px 0;line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.slide .date{font-size:12px;color:var(--sub);margin:2px 4px 0}
+.dots{display:flex;justify-content:center;gap:6px;margin-top:8px}.dots span{width:7px;height:7px;border-radius:50%;background:#ddd}.dots span.on{background:var(--acc)}
+/* サムネイル（商品画像4枚のコラージュ） */
+.thumb{aspect-ratio:16/9;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:2px;overflow:hidden;background:#eee;border-radius:10px}
+.thumb img{width:100%;height:100%;object-fit:cover}.thumb.one{grid-template-columns:1fr}
+.cat{display:inline-block;background:var(--acc);color:#fff;font-size:11px;font-weight:700;padding:3px 9px;border-radius:4px;line-height:1.5}
+.cat.gray{background:var(--navy)}
+/* 2カラム */
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:28px;margin:28px auto 40px}
+.main>section,.main>article{background:var(--card);border-radius:14px;padding:26px 24px;margin-bottom:24px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.side .box{background:var(--card);border-radius:14px;padding:20px;margin-bottom:22px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+h2.sec{display:flex;align-items:center;gap:8px;font-size:19px;margin:0 0 18px;padding-bottom:10px;border-bottom:2px solid var(--line);position:relative}
+h2.sec::after{content:"";position:absolute;left:0;bottom:-2px;width:64px;height:2px;background:var(--acc)}
+h2.sec svg{color:var(--acc)}
+.side h3.sh{font-size:15px;margin:0 0 14px;padding:8px 12px;background:var(--acc);color:#fff;border-radius:6px;text-align:center}
+/* 誰向けアイコン */
+.who{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.who a{text-decoration:none;color:var(--ink);text-align:center;font-size:12px;font-weight:700;line-height:1.4}
+.who .ic{width:58px;height:58px;margin:0 auto 8px;border-radius:50%;background:var(--acc);color:#fff;display:flex;align-items:center;justify-content:center;transition:transform .15s}
+.who .ic svg{width:28px;height:28px}.who a:hover .ic{transform:translateY(-3px)}
+/* 記事カード */
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:22px 18px}
+.pcard{text-decoration:none;color:var(--ink);position:relative;display:block}
+.pcard .cat{position:absolute;top:8px;right:8px}
+.pcard h3{font-size:15px;font-weight:700;margin:10px 0 4px;line-height:1.55}.pcard:hover h3{color:var(--acc-d)}
+.pcard .date{font-size:12px;color:var(--sub)}
+.more{display:block;text-align:center;margin:22px auto 0;width:200px;border:1px solid var(--ink);border-radius:999px;padding:9px;text-decoration:none;color:var(--ink);font-size:14px;font-weight:700}.more:hover{background:var(--ink);color:#fff}
+/* サイドバー部品 */
+.search{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}.search input{flex:1;border:0;padding:9px 12px;font-size:14px;outline:none}.search button{border:0;background:var(--acc);color:#fff;padding:0 14px;cursor:pointer;display:flex;align-items:center}
+.prof{text-align:center}.prof img{width:96px;height:96px;border-radius:50%;margin:4px auto 10px}.prof b{display:block;font-size:16px}.prof p{font-size:13px;color:var(--sub);text-align:left;margin:10px 0 0;line-height:1.75}
+.prof .sns{display:flex;justify-content:center;gap:10px;margin-top:12px}.prof .sns a{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);display:inline-flex;align-items:center;justify-content:center;color:var(--ink)}
+.rank{list-style:none;margin:0;padding:0}.rank li{display:grid;grid-template-columns:80px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);position:relative}.rank li:last-child{border-bottom:0}
+.rank .im{position:relative}.rank .im img{width:80px;height:80px;object-fit:cover;border-radius:8px}.rank .im b{position:absolute;top:-6px;left:-6px;width:24px;height:24px;border-radius:50%;background:var(--acc);color:#fff;font-size:12px;display:flex;align-items:center;justify-content:center}
+.rank .im b.g1{background:var(--gold)}.rank .im b.g2{background:#9aa5b1}.rank .im b.g3{background:#c98a5a}
+.rank a{text-decoration:none;color:var(--ink);font-size:13px;font-weight:700;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.rank small{display:block;color:var(--sub);font-size:12px;font-weight:400;margin-top:3px}
+.cats{list-style:none;margin:0;padding:0}.cats li{border-bottom:1px solid var(--line)}.cats li:last-child{border-bottom:0}.cats a{display:flex;justify-content:space-between;padding:10px 4px;text-decoration:none;color:var(--ink);font-size:14px}.cats a:hover{color:var(--acc-d)}.cats span{color:var(--sub);font-size:12px}
+.ev{list-style:none;margin:0;padding:0}.ev li{display:grid;grid-template-columns:56px 1fr;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:13px}.ev li:last-child{border-bottom:0}
+.ev time{background:var(--acc-l);color:var(--acc-d);border-radius:6px;text-align:center;font-weight:700;font-size:12px;line-height:1.3;padding:5px 0;align-self:start}.ev small{display:block;color:var(--sub)}
+/* 記事本文 */
+.post h1{font-size:clamp(21px,3vw,27px);line-height:1.5;margin:8px 0 10px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;font-size:12px;color:var(--sub);margin-bottom:16px}
+.eyecatch{margin:0 0 20px}.eyecatch .thumb{border-radius:12px}
+.intro{font-size:15px;margin:0 0 18px}
+.toc{background:#faf8f5;border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:0 0 26px}
+.toc b{display:block;font-size:14px;margin-bottom:6px}.toc ol{margin:0;padding-left:22px;font-size:14px}.toc li{margin:4px 0}.toc a{color:var(--ink);text-decoration:none}.toc a:hover{color:var(--acc-d)}
+h2.h{font-size:19px;margin:34px 0 14px;padding:10px 14px;background:var(--acc-l);border-left:5px solid var(--acc);border-radius:0 8px 8px 0}
+.lead{font-size:14px;color:var(--sub);margin:-4px 0 16px}
+/* 商品ボックス（独自） */
+.item{border:1px solid var(--line);border-radius:12px;padding:16px;margin:0 0 16px;display:grid;grid-template-columns:150px 1fr;gap:16px;position:relative;background:#fff}
+.item .no{position:absolute;top:-10px;left:12px;background:var(--navy);color:#fff;font-size:12px;font-weight:700;padding:2px 10px;border-radius:999px}
+.item .pic img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;border:1px solid var(--line)}
+.item h3{font-size:16px;margin:4px 0 6px;line-height:1.5}.item h3 a{color:var(--ink);text-decoration:none}.item h3 a:hover{color:var(--acc-d)}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}.badges span{font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;background:#f3f4f6;color:#444}
+.badges .sale{background:var(--red);color:#fff}.badges .top{background:var(--gold);color:#4a3200}.badges .pt{background:var(--navy);color:#fff}.badges .dl{background:#fff;border:1px solid var(--red);color:var(--red)}
+.stars{color:var(--gold);letter-spacing:1px;font-size:14px}.stars b{color:var(--ink);margin-left:4px}.stars small{color:var(--sub);margin-left:6px;font-weight:400}
+.pr{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:6px 0}
+.pr b{font-size:24px;color:var(--red)}.pr b small{font-size:13px}.pr .eff{font-size:13px;background:var(--acc-l);color:var(--acc-d);font-weight:700;padding:3px 10px;border-radius:6px}
+.pr .shop{font-size:12px;color:var(--sub)}
+.pt3{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:8px 0 10px}
+.pt3 div{background:#faf8f5;border-radius:8px;padding:8px 6px;text-align:center;font-size:12px;color:var(--sub);line-height:1.4}.pt3 b{display:block;font-size:14px;color:var(--ink)}
+.memo{font-size:13px;color:#555;margin:0 0 10px;padding-left:10px;border-left:3px solid var(--acc-l)}
+.cta{display:flex;gap:8px;flex-wrap:wrap}
+.btn{flex:1;min-width:150px;display:inline-flex;align-items:center;justify-content:center;gap:6px;background:var(--acc);color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:11px 14px;border-radius:8px;box-shadow:0 3px 0 var(--acc-d)}
+.btn:hover{background:var(--acc-d);box-shadow:none;transform:translateY(2px)}
+.btn.sub{background:#fff;color:var(--ink);border:1px solid var(--line);box-shadow:none;flex:0 0 auto}
+.note{background:#faf8f5;border-radius:10px;padding:14px 18px;font-size:14px;margin:26px 0 0}
+.pnav{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:26px 0 0}
+.pnav a{border:1px solid var(--line);border-radius:10px;padding:12px 14px;text-decoration:none;color:var(--ink);font-size:13px;font-weight:700;line-height:1.5}.pnav a span{display:block;color:var(--sub);font-size:11px;font-weight:400}
+.pnav a.n{text-align:right}
+.crumb{font-size:12px;color:var(--sub);margin:16px 0 0}.crumb a{color:var(--sub);text-decoration:none}
+.entries{list-style:none;margin:0;padding:0}.entries li{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}.entries li:last-child{border-bottom:0}
+.entries .thumb{border-radius:8px}.entries a{text-decoration:none;color:var(--ink);font-weight:700;font-size:15px;line-height:1.55}.entries a:hover{color:var(--acc-d)}.entries small{display:block;color:var(--sub);font-size:12px;font-weight:400;margin-top:4px}
+.prose h2{font-size:19px;margin:30px 0 12px;padding:10px 14px;background:var(--acc-l);border-left:5px solid var(--acc);border-radius:0 8px 8px 0}.prose p{margin:0 0 14px;font-size:15px}.prose ul{padding-left:22px;font-size:15px}.prose li{margin-bottom:6px}
+footer{background:var(--navy);color:#c9cfdd;font-size:12px;padding:28px 0 32px;margin-top:20px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:center}footer a{color:#fff;text-decoration:none}footer .copy{width:100%;text-align:center;margin-top:8px}
+@media (max-width:900px){.cols{grid-template-columns:1fr;gap:20px;margin-top:18px}.who{grid-template-columns:repeat(3,1fr)}.slide{flex-basis:78vw}.gnav{justify-content:flex-start}.brand{font-size:17px}}
+@media (max-width:600px){.cards{grid-template-columns:1fr 1fr;gap:16px 12px}.pcard h3{font-size:13px}.main>section,.main>article{padding:20px 14px}.item{grid-template-columns:110px 1fr;gap:12px;padding:14px 12px}.pt3{grid-template-columns:1fr 1fr 1fr;gap:4px}.pt3 div{font-size:11px}.pr b{font-size:21px}.entries li{grid-template-columns:120px 1fr}.pnav{grid-template-columns:1fr}.pnav a.n{text-align:left}.topbar .tag{display:none}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "AboutPage", "name": "選び方と運営者情報", "url": "https://wsty-gif.github.io/about.html"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://wsty-gif.github.io/"}, {"@type": "ListItem", "position": 2, "name": "選び方と運営者情報"}]}</script>
 </head>
 <body>
-<header><div class="wrap">
-<div class="top"><a class="wordmark" href="index.html"><b>らくみつ</b><small>楽天で見つけた良いもの</small></a></div>
-<nav aria-label="サイト内"><a href="index.html">新着</a><a href="posts/index.html">記事一覧</a><a href="ranking.html">評価ランキング</a><a href="for/index.html">誰向けで探す</a><a href="about.html" aria-current="page">選び方と運営者</a></nav>
-</div></header>
-<div class="wrap notice">当サイトは楽天アフィリエイトの広告を含みます（PR）。商品リンク経由の購入で当サイトに報酬が発生します。価格・ポイント倍率は掲載時点のものです。</div>
-<main class="wrap">
-<p class="crumb"><a href="index.html">ホーム</a> › 選び方と運営者情報</p><p class="label">ABOUT</p><h1 class="title">選び方と運営者情報</h1>
-<section class="prose">
+<div class="topbar"><div class="wrap"><span class="tag">楽天で見つけた良いもの。レビュー50件以上・評価4.2以上だけ。</span>
+<span class="sns"><a href="https://x.com/rakumitsu__room"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-7.2L4.5 22H1.4l8.1-9.3L0.7 2h7.2l5 6.6L18.9 2zm-1.2 18h1.9L7.4 3.9H5.4L17.7 20z"/></svg></a><a href="https://www.threads.net/@rakumitsu__room"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3c-5 0-8 3.5-8 9s3 9 8 9c4 0 7-2.3 7-5.6 0-2.8-2-4.4-4.8-4.4-2.4 0-4 1.2-4 3 0 1.6 1.3 2.6 3 2.6 2.2 0 3.5-1.6 3.6-4.6"/><path d="M8.2 9c.8-1.6 2.2-2.4 4-2.4 2.6 0 4.2 1.5 4.6 4"/></svg></a><a href="https://room.rakuten.co.jp/room_5219bec75d"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 8h12l1 13H5L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></a><a href="feed.xml"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><circle cx="5" cy="19" r="2.2"/><path d="M3 10a11 11 0 0 1 11 11h-3a8 8 0 0 0-8-8v-3z"/><path d="M3 3a18 18 0 0 1 18 18h-3A15 15 0 0 0 3 6V3z"/></svg></a></span></div></div>
+<header class="hdr"><div class="wrap"><a class="brand" href="index.html"><img src="assets/icon.png" alt="" width="36" height="36">らくみつ</a>
+<nav class="gnav" aria-label="カテゴリー"><a href="for/20s_woman.html">20代女性</a><a href="for/30s_woman.html">30代女性</a><a href="for/mama.html">子育て世帯のママ・パパ</a><a href="for/20s_man.html">20代男性</a><a href="for/30s_man.html">30代男性</a><a href="for/40s_man.html">40代男性</a><a href="ranking.html">ランキング</a><a href="posts/index.html">記事一覧</a></nav></div></header>
+
+<div class="wrap cols">
+<div class="main"><article class="post prose"><p class="crumb"><a href="index.html">ホーム</a> › 選び方と運営者情報</p><h1>選び方と運営者情報</h1>
 <p>らくみつは、楽天市場で「実際に売れていて、買った人の評価が高い物」だけを毎日3回選んで掲載しているサイトです。特定の店や商品を宣伝するためではなく、迷う時間を減らすために作っています。</p>
 <h2>掲載の基準</h2>
-<ul>
-<li>楽天市場のリアルタイムランキング、年代・性別別ランキング、セール検索から候補を集めます。</li>
+<ul><li>楽天市場のリアルタイムランキング、年代・性別別ランキング、セール検索から候補を集めます。</li>
 <li>レビュー50件以上、評価4.2以上の商品だけを残します。</li>
 <li>単価1,500円未満、中古品、在庫切れの商品は除外します。</li>
 <li>レビュー件数・評価・ポイント倍率・価格帯で点数を付け、上位を掲載します。同じ店の商品は1日2点までです。</li>
-<li>割引率・締切・順位は、商品名やキャッチコピーに書かれている内容だけを転記します。こちらで推測した数字は載せません。</li>
-</ul>
+<li>割引率・締切・順位は、商品名やキャッチコピーに書かれている内容だけを転記します。こちらで推測した数字は載せません。</li></ul>
 <h2>価格と「実質価格」について</h2>
-<p>価格は掲載時点の税込表示です。「実質価格」は、表示価格からポイント倍率相当を差し引いた目安で、ポイントの付与条件（会員ランク、エントリー、支払い方法）によって実際の還元は変わります。購入前に必ず商品ページでご確認ください。</p>
+<p>価格は掲載時点の税込表示です。「実質価格」は表示価格からポイント倍率相当を差し引いた目安で、ポイントの付与条件（会員ランク、エントリー、支払い方法）により実際の還元は変わります。購入前に必ず商品ページでご確認ください。</p>
 <h2>広告について</h2>
 <p>当サイトは楽天アフィリエイトに参加しています。商品リンクは広告リンクで、リンク経由で購入されると当サイトに報酬が支払われます。報酬の有無や料率は掲載順位に影響していますが、レビュー件数と評価の基準を満たさない商品は料率が高くても掲載しません。</p>
 <h2>運営者</h2>
-<p>らくみつ（個人運営）。更新情報は<a href="https://x.com/rakumitsu__room">X</a>と<a href="https://room.rakuten.co.jp/room_5219bec75d">楽天ROOM</a>でも発信しています。掲載内容の誤りや削除のご依頼はXのダイレクトメッセージでお知らせください。</p>
-</section>
-</main>
-<footer><div class="wrap">
-<div class="cols"><a href="about.html">選び方と運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="posts/index.html">記事一覧</a><a href="feed.xml">RSS</a><a href="https://x.com/rakumitsu__room" rel="me">X</a><a href="https://room.rakuten.co.jp/room_5219bec75d" rel="me">楽天ROOM</a></div>
-<div>© 2026 らくみつ。掲載情報は楽天市場の公開データに基づきます。最新の価格・在庫は各商品ページでご確認ください。</div>
-</div></footer>
+<p>らくみつ（個人運営）。更新情報は<a href="https://x.com/rakumitsu__room">X</a>、<a href="https://www.threads.net/@rakumitsu__room">Threads</a>、<a href="https://room.rakuten.co.jp/room_5219bec75d">楽天ROOM</a>でも発信しています。掲載内容の誤りや削除のご依頼はXのダイレクトメッセージでお知らせください。</p></article></div>
+<aside class="side">
+<div class="box"><form class="search" action="https://www.google.com/search" method="get" target="_blank"><input type="text" name="q" placeholder="site:wsty-gif.github.io キーワード" aria-label="サイト内検索"><button type="submit" aria-label="検索"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button></form></div>
+<div class="box prof"><img src="assets/icon.png" alt="らくみつ" width="96" height="96"><b>らくみつ</b>
+<p>楽天市場で「本当に売れていて、買った人の評価が高い物」だけを毎日3回選んでいます。<br>・レビュー50件以上、評価4.2以上だけ<br>・セール中は「実質いくらか」を計算<br>・割引や締切は商品名にある数字だけ転記</p>
+<div class="sns"><a href="https://x.com/rakumitsu__room" aria-label="X"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-7.2L4.5 22H1.4l8.1-9.3L0.7 2h7.2l5 6.6L18.9 2zm-1.2 18h1.9L7.4 3.9H5.4L17.7 20z"/></svg></a><a href="https://www.threads.net/@rakumitsu__room" aria-label="Threads"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3c-5 0-8 3.5-8 9s3 9 8 9c4 0 7-2.3 7-5.6 0-2.8-2-4.4-4.8-4.4-2.4 0-4 1.2-4 3 0 1.6 1.3 2.6 3 2.6 2.2 0 3.5-1.6 3.6-4.6"/><path d="M8.2 9c.8-1.6 2.2-2.4 4-2.4 2.6 0 4.2 1.5 4.6 4"/></svg></a><a href="https://room.rakuten.co.jp/room_5219bec75d" aria-label="楽天ROOM"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 8h12l1 13H5L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></a><a href="feed.xml" aria-label="RSS"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><circle cx="5" cy="19" r="2.2"/><path d="M3 10a11 11 0 0 1 11 11h-3a8 8 0 0 0-8-8v-3z"/><path d="M3 3a18 18 0 0 1 18 18h-3A15 15 0 0 0 3 6V3z"/></svg></a></div></div>
+<div class="box"><h3 class="sh">人気商品 TOP5</h3><ol class="rank"><li><div class="im"><img loading="lazy" src="https://thumbnail.image.rakuten.co.jp/@0_mall/yunth/cabinet/11294195/11294196/event/10000000_260905.jpg?_ex=600x600" alt=""><b class="g1">1</b></div><div><a href="https://hb.afl.rakuten.co.jp/hgc/g00u7rbo.72d3y836.g00u7rbo.72d3z3d2/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyunth%2F10000000%2F&amp;rafcid=wsc_i_ra_f52cf5c4-0f13-45a0-abfd-622fb73cc6d2" rel="nofollow sponsored noopener" target="_blank">Yunth 生ビタミンC 美白美容液 1ml×28包 美容液</a><small>★4.69・44,909件　3,960円</small></div></li><li><div class="im"><img loading="lazy" src="https://thumbnail.image.rakuten.co.jp/@0_mall/yamagoiida/cabinet/08906716/09064251/img_2026_08_001_50.jpg?_ex=600x600" alt=""><b class="g2">2</b></div><div><a href="https://hb.afl.rakuten.co.jp/hgc/g00tqd5o.72d3y629.g00tqd5o.72d3z50c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamagoiida%2F10000077%2F&amp;rafcid=wsc_i_ra_f52cf5c4-0f13-45a0-abfd-622fb73cc6d2" rel="nofollow sponsored noopener" target="_blank">骨取りさば 北欧産 訳あり 骨なし 骨抜き 天然 ノルウェー産</a><small>★4.78・36,776件　3,490円</small></div></li><li><div class="im"><img loading="lazy" src="https://thumbnail.image.rakuten.co.jp/@0_mall/shuuemura/cabinet/12824584/13204797/13525001/new.jpg?_ex=600x600" alt=""><b class="g3">3</b></div><div><a href="https://hb.afl.rakuten.co.jp/hgc/g00tl4no.72d3yc14.g00tl4no.72d3ze52/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshuuemura%2Fshu30001jp%2F&amp;rafcid=wsc_i_ra_f52cf5c4-0f13-45a0-abfd-622fb73cc6d2" rel="nofollow sponsored noopener" target="_blank">アルティム8∞ ベストセラーキット ブライト クレンジングオイル</a><small>★4.84・34,676件　13,200円</small></div></li><li><div class="im"><img loading="lazy" src="https://thumbnail.image.rakuten.co.jp/@0_mall/brita/cabinet/thum/thumb_01/maxtraplus-8.jpg?_ex=600x600" alt=""><b class="g4">4</b></div><div><a href="https://hb.afl.rakuten.co.jp/hgc/g00tbsuo.72d3y673.g00tbsuo.72d3zedf/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbrita%2Fmaxtraplus-8%2F&amp;rafcid=wsc_i_ra_f52cf5c4-0f13-45a0-abfd-622fb73cc6d2" rel="nofollow sponsored noopener" target="_blank">ポット型浄水器用カートリッジ マクストラプロ ピュアパフォーマンス</a><small>★4.78・25,766件　7,990円</small></div></li><li><div class="im"><img loading="lazy" src="https://thumbnail.image.rakuten.co.jp/@0_mall/kouragumi/cabinet/10531638/imgrc0114997850.jpg?_ex=600x600" alt=""><b class="g5">5</b></div><div><a href="https://hb.afl.rakuten.co.jp/hgc/g00r77to.72d3y343.g00r77to.72d3zf2a/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkouragumi%2F201175%2F&amp;rafcid=wsc_i_ra_f52cf5c4-0f13-45a0-abfd-622fb73cc6d2" rel="nofollow sponsored noopener" target="_blank">骨取りサバ切身 1kg 無塩or有塩が選べる 骨とり 骨なし さば</a><small>★4.51・18,983件　2,490円</small></div></li></ol><a class="more" style="width:auto;margin-top:14px;font-size:13px;padding:7px" href="ranking.html">ランキングをすべて見る</a></div>
+<div class="box"><h3 class="sh">近日のセール・行事</h3><ul class="ev"><li><time>9/4<br><span style="font-weight:400">開催中</span></time><div>楽天スーパーSALE<small>9月4日〜9月11日</small></div></li><li><time>9/15<br><span style="font-weight:400">あと9日</span></time><div>秋の衣替え<small>9月15日〜10月20日</small></div></li><li><time>9/19<br><span style="font-weight:400">あと13日</span></time><div>お買い物マラソン<small>9月19日〜9月24日</small></div></li><li><time>9/21<br><span style="font-weight:400">あと15日</span></time><div>敬老の日<small>9月21日〜9月21日</small></div></li><li><time>10/4<br><span style="font-weight:400">あと28日</span></time><div>お買い物マラソン<small>10月4日〜10月11日</small></div></li></ul></div>
+<div class="box"><h3 class="sh">誰向けで探す</h3><ul class="cats"><li><a href="for/20s_woman.html">20代女性<span>15件</span></a></li><li><a href="for/30s_woman.html">30代女性<span>12件</span></a></li><li><a href="for/mama.html">子育て世帯のママ・パパ<span>9件</span></a></li><li><a href="for/20s_man.html">20代男性<span>0件</span></a></li><li><a href="for/30s_man.html">30代男性<span>10件</span></a></li><li><a href="for/40s_man.html">40代男性<span>16件</span></a></li></ul></div>
+</aside>
+</div>
+<footer><div class="wrap"><a href="index.html">ホーム</a><a href="about.html">選び方と運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="posts/index.html">記事一覧</a><a href="ranking.html">ランキング</a>
+<div class="copy">当サイトは楽天アフィリエイトの広告を含みます（PR）。掲載情報は楽天市場の公開データに基づき、価格・ポイント倍率は掲載時点のものです。<br>© 2026 らくみつ</div></div></footer>
+
 </body>
 </html>
